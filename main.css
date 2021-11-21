@@ -1,10 +1,15 @@
 body
 {
+    background-color: #cf1e27;
     font-size: 20px;
+    margin: 0%;
 }
 header
 {
-    position: fixed;
+    position: relative;
+    width: 100%;
+    display: block;
+    background-color: #ffffff;
 }
 h1
 {
@@ -14,11 +19,21 @@ nav
 {
     display: inline;
     text-align: right;
-    position: fixed;
-    right: 10px;
+    position: relative;
     padding: .9em;
+    padding-left: 36em;
+}
+img
+{
+    width: 35%;
+    height: 35%;
+    border: 1px black solid;
 }
 a
 {
     padding: .5em;
+}
+#product
+{
+    text-align: center;
 }
