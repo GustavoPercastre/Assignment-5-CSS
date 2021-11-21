@@ -8,19 +8,28 @@ body
 header
 {
     position: relative;
+    padding-top: .5em;
+    padding-bottom: 1em;
     width: 100%;
     display: block;
     background-color: #ffffff;
+    margin: 0em !important;
 }
 footer
 {
     background-image: url(Images/back-ground-footer.png);
     text-align: center;
     color: #ffffff;
+    padding: .5em;
 }
 h1
 {
     display: inline;
+}
+ul 
+{
+    display: table;
+    margin: 0em auto;
 }
 nav
 {
@@ -48,8 +57,17 @@ a, a:link
 #product
 {
     text-align: center;
+    color: #ffffff;
+}
+#food-info
+{
+    background-color: #ffffff;
+    color: #3c3c3c;
+    padding: .5em;
+    text-align: center;
 }
 #copyrightsign
 {
     text-align: right;
+    margin: 0em;
 }
