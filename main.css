@@ -3,6 +3,7 @@ body
     background-color: #cf1e27;
     font-size: 20px;
     margin: 0%;
+    font-family: 'Helvetica';
 }
 header
 {
@@ -10,6 +11,12 @@ header
     width: 100%;
     display: block;
     background-color: #ffffff;
+}
+footer
+{
+    background-image: url(Images/back-ground-footer.png);
+    text-align: center;
+    color: #ffffff;
 }
 h1
 {
@@ -21,19 +28,28 @@ nav
     text-align: right;
     position: relative;
     padding: .9em;
-    padding-left: 36em;
+    padding-left: 33em;
 }
-img
+a:hover
+{
+    color: #cf1e27;
+}
+a, a:link
+{
+    color: #000000;
+    padding: .5em;
+}
+#egg-burger
 {
     width: 35%;
     height: 35%;
     border: 1px black solid;
 }
-a
-{
-    padding: .5em;
-}
 #product
 {
     text-align: center;
+}
+#copyrightsign
+{
+    text-align: right;
 }
